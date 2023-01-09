@@ -5,7 +5,11 @@ store it in JSON format so that it can be accessed in the react Js.
 
 1) No import needed
 
-2) php script for making a api to get data in JSON
+2) php script for making a api to get data in JSON.
+        -> First Start your XAMPP, run apache and mysql  in apache.
+        -> Go in your htdocs folder and type this code in a file named... "employee.php"
+        -> make sure the dbname and password match your mysql credentials.
+        -> Type the following code......
 
         <?php
         header("Access-Control-Allow-Origin: *"); //add this CORS header to enable any domain to send HTTP requests to these endpoints:
@@ -56,4 +60,15 @@ store it in JSON format so that it can be accessed in the react Js.
 
         ?>
 
-3) 
+3) Run the above code and then open the reactjs code in your prefered IDE.
+
+4) Run the following command....
+        npm i --force
+        
+5) Now copy the URL from the web browser where your PHP is running, and paste the URL in Datatable.js file, in the fetch('______').
+
+6) Now execute the program...
+        -> npm start
+        
+        
+GOOD LUCK....
