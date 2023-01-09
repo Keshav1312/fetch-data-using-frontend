@@ -10,6 +10,9 @@ store it in JSON format so that it can be accessed in the react Js.
         -> Go in your htdocs folder and type this code in a file named... "employee.php"
         -> make sure the dbname and password match your mysql credentials.
         -> Type the following code......
+        
+        
+**************************************************** PHP Code ***********************************************************************
 
         <?php
         header("Access-Control-Allow-Origin: *"); //add this CORS header to enable any domain to send HTTP requests to these endpoints:
@@ -59,6 +62,9 @@ store it in JSON format so that it can be accessed in the react Js.
         $con->close();
 
         ?>
+        
+****************************************************** END *****************************************************************************
+
 
 3) Run the above code and then open the reactjs code in your prefered IDE.
 
